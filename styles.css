@@ -1,0 +1,63 @@
+*{
+    margin: 5px;
+    padding: 0px;
+}
+
+body{
+    text-align: center;
+}
+
+#appBody{
+    height: 50vh;
+    width: 30vh;
+    border: 2px solid black;
+    position:absolute;
+}
+#calName{
+    position:relative;
+    height: 30px;
+    width: 92%;
+    background-color: black;
+    border: 2px solid black;
+}
+ #name{
+    position:relative;
+    margin-top: 5px;
+    text-align: center;
+    margin-top: 20px;
+    color:antiquewhite;
+    font-size: 20px;
+}
+#display{
+    position:relative;
+    height: 50px;
+    width: 92%;
+    border: 2px solid black;
+}
+#display input{
+    border: none;
+    margin: 2px;
+    height: 80%;
+    text-decoration: none;
+}
+
+#key-pad{
+    margin-left: 15px;
+    height: 60%;
+    width: 90%;
+    position: inherit;
+    display:flex;
+    flex-wrap: wrap;
+}
+#key-pad button{
+    border-radius: 8px;
+}
+
+button{
+    font-size:18px;
+}
+
+.innerButton{
+    height: 30px;
+    width: 30px;
+}
